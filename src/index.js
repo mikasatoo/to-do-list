@@ -1,3 +1,4 @@
+import './style.css';
 import {createHeader, createMainContent, createFooter} from './page-load.js';
 
 function component() {
@@ -6,7 +7,7 @@ function component() {
     content.appendChild(createHeader());
     content.appendChild(createMainContent());
     content.appendChild(createFooter());
-    
+
     return content;
 }
 
